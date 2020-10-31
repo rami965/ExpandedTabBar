@@ -10,7 +10,7 @@
 import UIKit
 
 extension ExpandedTabBarController: UITabBarControllerDelegate {
-    public func tabBarController(_ tabBarController: UITabBarController,
+    open func tabBarController(_ tabBarController: UITabBarController,
                                  shouldSelect viewController: UIViewController) -> Bool {
         
         if viewController.isInitialMore {
